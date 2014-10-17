@@ -1,0 +1,11 @@
+{
+  "name": "load-js",
+  "private": true,
+  "main": "loadJS.js",
+  "scripts": {
+    "minify": "uglifyjs loadJS.js -m -o loadJS.min.js"
+  },
+  "devDependencies": {
+    "uglify-js": "2.4.x"
+  }
+}
